@@ -26,7 +26,7 @@ const ContactForm = ({ darkMode }) => {
         <div className={`bg-${darkMode ? 'gray-800' : 'white'} border border-gray-300 rounded-lg shadow-lg p-6 h-full mb-4`}>
           <h2 className={`text-2xl md:text-3xl font-bold text-center ${darkMode ? 'text-white' : 'text-black'}`}>Get in Touch</h2>
           <p className={`text-base md:text-xl text-start mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>
-          A versatile Full Stack Web Developer who is enthusiastic and creative in designing your Web projects with tailor-based designs. Open to work. Feel free to reach me at pkmohan479@gmail.com.          </p>
+          A versatile Full Stack Web Developer who is enthusiastic and creative in designing Web projects with tailor-based designs. Open to work. Feel free to reach me at pkmohan479@gmail.com.          </p>
           <div className="flex items-center mb-2">
             <img src="https://res.cloudinary.com/krishnamohan479/image/upload/v1737920807/3dicons-boy-front-color_w3lqbh.png" alt="User Icon" className="mr-2 w-12 h-12" />
             <span className={`text-lg ${darkMode ? 'text-white' : 'text-black'}`}> Krishna Mohan P.V.S</span>
