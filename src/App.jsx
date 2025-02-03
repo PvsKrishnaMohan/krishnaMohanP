@@ -37,11 +37,11 @@ function App() {
       link: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard with real-time updates and forecasts',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80',
-      tags: ['React', 'Weather API'],
-      link: '#'
+      title: 'Task Maker',
+      description: 'Task tracker application uses to track daily tasks with timestamp enabled',
+      image: 'https://res.cloudinary.com/krishnamohan479/image/upload/v1738611630/taskTracker-green_etiwj1.png',
+      tags: ['React', 'TaskMaker','tailwindcss'],
+      link: 'https://taskmaker-pvskrishnamohan.netlify.app/'
     }
   ];
 
