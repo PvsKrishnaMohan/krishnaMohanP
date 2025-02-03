@@ -25,7 +25,7 @@ const ContactForm = ({ darkMode }) => {
       <div className="flex-1 h-full items-center justify-center p-2 w-full">
         <div className={`bg-${darkMode ? 'gray-800' : 'white'} border border-gray-300 rounded-lg shadow-lg p-6 h-full mb-4`}>
           <h2 className={`text-2xl md:text-3xl font-bold text-center ${darkMode ? 'text-white' : 'text-black'}`}>Get in Touch</h2>
-          <p className={`text-base md:text-lg text-start mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>
+          <p className={`text-base md:text-xl text-start mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>
             A Full Stack Web Developer who is enthusiastic and creative to design your Web projects with tailor-based designs for all your Business needs. Feel free to reach me at pkmohan479@gmail.com.
           </p>
           <div className="flex items-center mb-2">
@@ -47,6 +47,8 @@ const ContactForm = ({ darkMode }) => {
         </div>
       </div>
       <form onSubmit={handleSubmit} className="flex-1 space-y-6">
+      <span className="block md:hidden text-center text-slate-300 mt-5">Message me</span>
+
         <div>
           <label
             htmlFor="name"
@@ -94,7 +96,7 @@ const ContactForm = ({ darkMode }) => {
             id="message"
             name="message"
             required
-            rows="6"
+            rows="4"
             value={formData.message}
             onChange={handleChange}
             className={`w-full px-4 py-3 rounded-lg border ${darkMode ? "bg-gray-800 border-gray-600 text-white" : "bg-white border-gray-300 text-gray-900"} focus:outline-none focus:ring-2 focus:ring-blue-500`}
