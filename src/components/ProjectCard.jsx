@@ -27,7 +27,7 @@ const ProjectCard = ({ project, darkMode }) => {
       </div>
       
       <div className="p-6">
-        <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+        <h3 className={`text-xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-black'}`}>{project.title}</h3>
         <p className={`mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
           {project.description}
         </p>
