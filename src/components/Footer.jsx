@@ -16,7 +16,7 @@ const Footer = ({ darkMode }) => {
               <img src="https://res.cloudinary.com/krishnamohan479/image/upload/v1738583093/github_1_bcw4qc.png" alt="GitHub" className="w-10 h-10 shadow-lg  transition-transform duration-300 transform hover:scale-100" />
             </a>
             <a
-              href="https://www.linkedin.com/in/krishna-mohan-68436b208/"
+              href="https://www.linkedin.com/in/krishna-mohan-p-v-s-68436b208/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition-colors duration-300"
