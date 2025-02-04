@@ -7,6 +7,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Background from './components/Background';
 import { useSpring, animated } from '@react-spring/web';
+import Resume from './assets/PVSKrishnaMohan_Resume.pdf';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true); // Set dark mode as default
@@ -77,8 +78,10 @@ function App() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
               <a
-                href="#contact"
+                href={Resume} 
                 className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
+                target="_blank"
+                rel="noopener noreferrer" // Security feature
               >
                 Download Resume
               </a>
