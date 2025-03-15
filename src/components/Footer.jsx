@@ -1,11 +1,12 @@
 import React from 'react';
-import { Twitter } from 'lucide-react';
+import Threads from './Threads';
 
 const Footer = ({ darkMode }) => {
   return (
     <footer className={`py-8 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center space-y-4">
+        
+        <div className="flex flex-col items-center space-y-4">      
           <div className="flex space-x-6 text-center justify-center">
             <a
               href="https://github.com/PvsKrishnaMohan"
@@ -23,8 +24,9 @@ const Footer = ({ darkMode }) => {
             >
               <img src="https://res.cloudinary.com/krishnamohan479/image/upload/v1738584222/linked_f2zxyv.png" alt="LinkedIn" className="w-8 h-8 m-1 shadow-lg transition-transform duration-300 transform hover:scale-110" />
             </a>
-           
+   
           </div>
+    
           <p className={`text-sm ${darkMode ? 'text-slate-200' : 'text-gray-600'} text-center`}>
             © {new Date().getFullYear()} Krishna Mohan P.V.S. All rights reserved.
           </p>
