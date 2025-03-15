@@ -25,7 +25,7 @@ const Footer = ({ darkMode }) => {
             </a>
            
           </div>
-          <p className={`text-sm ${darkMode ? 'text-slate-200' : 'text-gray-600'}`}>
+          <p className={`text-sm ${darkMode ? 'text-slate-200' : 'text-gray-600'} text-center`}>
             © {new Date().getFullYear()} Krishna Mohan P.V.S. All rights reserved.
           </p>
         </div>
