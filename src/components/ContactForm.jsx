@@ -33,7 +33,7 @@ const ContactForm = ({ darkMode }) => {
           </div>
           <div className="flex items-center mb-2">
             <img src="https://res.cloudinary.com/krishnamohan479/image/upload/v1738570899/3dicons-call-only-front-color_g1m9zu.png" alt="Contact Icon" className="mr-2 w-12 h-12" />
-            <span className={`text-lg ${darkMode ? 'text-white' : 'text-black'}`}> +91 93810**989</span>
+            <span className={`text-lg ${darkMode ? 'text-white' : 'text-black'}`}> +91 938****989</span>
           </div>
           <div className="flex items-center mb-2">
             <img src="https://res.cloudinary.com/krishnamohan479/image/upload/v1738595382/3dicons-map-pin-front-color_asxjay.png" alt="Contact Icon" className="mr-2 w-12 h-12" />
@@ -45,7 +45,7 @@ const ContactForm = ({ darkMode }) => {
           </div> */}
         </div>
       </div>
-      <form onSubmit={handleSubmit} className="flex-1 space-y-6">
+      <form onSubmit={handleSubmit} className="flex-1 space-y-1">
       <span className="block md:hidden text-center text-slate-300 mt-5">Message me</span>
 
         <div>
