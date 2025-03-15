@@ -50,7 +50,7 @@ function App() {
     <div className={`min-h-screen relative ${darkMode ? 'bg-gray-900' : 'bg-slate-50'}`}>
       <Background darkMode={darkMode} />
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      
+      {console.log('%cHello, This is Krishna Mohan, Thanks for visiting my Portfolio', 'color: blue; font-weight: bold; font-size: 20px; background: yellow; padding: 5px;')}
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-2 overflow-hidden">
         <div className="absolute inset-0 z-0">

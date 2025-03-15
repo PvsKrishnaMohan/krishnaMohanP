@@ -8,7 +8,7 @@ const Background = ({ darkMode }) => {
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    console.log(container);
+    // console.log(container);
   }, []);
 
   return (
