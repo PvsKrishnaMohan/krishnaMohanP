@@ -121,12 +121,12 @@ function App() {
           </div>
         </animated.div>
       </section>
-      <div
+      {/* <div
         className="block md:hidden"
         style={{ width: "100%", height: "100px", position: "absolute" }}
       >
         <Threads amplitude={1.8} distance={0.3} enableMouseInteraction={true} />
-      </div>
+      </div> */}
       <About darkMode={darkMode} />
 
       {/* Projects Section */}
