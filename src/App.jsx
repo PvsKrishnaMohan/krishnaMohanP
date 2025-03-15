@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Background from './components/Background';
 import { useSpring, animated } from '@react-spring/web';
 import Resume from './assets/PVSKrishnaMohan_Resume.pdf';
+import SplashCursor from './components/SplashColor';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true); // Set dark mode as default
@@ -48,6 +49,7 @@ function App() {
 
   return (
     <div className={`min-h-screen relative ${darkMode ? 'bg-gray-900' : 'bg-slate-50'}`}>
+      <SplashCursor />
       <Background darkMode={darkMode} />
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       {console.log('%cHello, This is Krishna Mohan, Thanks for visiting my Portfolio', 'color: blue; font-weight: bold; font-size: 20px; background: yellow; padding: 5px;')}
