@@ -25,13 +25,13 @@ function App() {
 
   const projects = [
     {
-      title: "E-commerce Platform",
+      title: "Search Gear",
       description:
-        "A full-stack e-commerce solution with React, Node.js, and MongoDB",
+        "Dynamic search application to deliver results with a seamless user experience with real-time feedback with loading animations",
       image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
-      tags: ["React", "Node.js", "MongoDB", "Redux"],
-      link: "#",
+        "https://res.cloudinary.com/krishnamohan479/image/upload/v1742191963/gear_ss_n2lxpo.png",
+      tags: ["React", "Tailwind css", "Framer motion"],
+      link: "https://searchgear-krishnamohanparepalli.netlify.app/",
     },
     {
       title: "Task Management App",
