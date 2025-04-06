@@ -7,7 +7,7 @@ import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import Background from "./components/Background";
 import { useSpring, animated } from "@react-spring/web";
-import Resume from "./assets/PVSKrishnaMohan_Resume.pdf";
+import Resume from "../src/assets/KRISHNA MOHAN PVS.pdf";
 import SplashCursor from "./components/SplashColor";
 import Threads from "./components/Threads";
 function App() {
